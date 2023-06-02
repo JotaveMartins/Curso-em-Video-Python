@@ -1,0 +1,5 @@
+frase = input('Digite uma frase: ')
+quantidade = (frase.upper().count('A'))
+primeira = (frase.upper().find('A'))
+ultima = (frase.upper().rfind('A'))
+print(f'Nessa frase o "A" aparece {quantidade} vezes.\nA primeira vez que ele aparece é no caráctere: {primeira}.\nA última vez que ele aparece é no caráctere:{ultima}.')
